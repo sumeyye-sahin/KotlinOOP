@@ -20,6 +20,14 @@ class MainActivity : AppCompatActivity() {
 
         var james = Teacher("James","Math",32)
 
+        james.name= "Tom"
+        james.age= 45
+        james.branch= "Music"
+
+        println(james.name)
+        println(james.branch)
+        println(james.age)
+
 
     }
 }
