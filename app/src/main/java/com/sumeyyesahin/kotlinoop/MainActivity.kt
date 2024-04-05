@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         println(myUser.age.toString())
         println(myUser.name)
 
+        var james = Teacher("James","Math",32)
 
 
     }
