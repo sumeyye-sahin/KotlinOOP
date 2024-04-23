@@ -18,11 +18,55 @@ class MainActivity : AppCompatActivity() {
         println(myUser.age.toString())
         println(myUser.name)
 
+        // encapsulation
         var james = Teacher("James","Math",32)
-
-
         println(james.name)
         println(james.age.toString())
+
+        //inheritance
+        var mary = SuperTeacher("Mary","History",27)
+        mary.age
+        mary.courseTime()
+        mary.superTeacherFun()
+
+        //polymorphism
+
+        //static polymorphism
+        var mathematics = Mathematics()
+        println(mathematics.sum())
+        println(mathematics.sum(4,5))
+        println(mathematics.sum(2,4,6))
+
+        //dynamic polymorphism
+        val profession = Profession()
+        profession.prof()
+        val doctor = Doctor()
+        doctor.test()
+        doctor.prof()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

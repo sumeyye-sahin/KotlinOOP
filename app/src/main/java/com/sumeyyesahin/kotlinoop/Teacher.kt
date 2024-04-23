@@ -13,6 +13,6 @@ open class Teacher(name: String, branch: String, age: Int) {
         private set
 
     fun courseTime(){
-        println("4 days a week")
+        println("4 times a week")
     }
 }
