@@ -1,6 +1,6 @@
 package com.sumeyyesahin.kotlinoop
 
-class User {
+class User : People{
 
     var name : String? = null
     var age : Int? = null

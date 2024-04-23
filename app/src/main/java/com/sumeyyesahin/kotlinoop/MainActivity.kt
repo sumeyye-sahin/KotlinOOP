@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         println(myUser.age.toString())
         println(myUser.name)
+        println(myUser.information())
 
         // encapsulation
         var james = Teacher("James","Math",32)
@@ -44,9 +45,9 @@ class MainActivity : AppCompatActivity() {
         doctor.test()
         doctor.prof()
 
+        // abstract and interface
 
-
-
+        //var myPeople = People()
 
 
 
