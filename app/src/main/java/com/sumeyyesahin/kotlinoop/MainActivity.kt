@@ -49,6 +49,12 @@ class MainActivity : AppCompatActivity() {
 
         //var myPeople = People()
 
+        //interface
+        var myPiano = Piano()
+        myPiano.brand = "Yamaha"
+        myPiano.digital = false
+        println(myPiano.roomName)
+        myPiano.info()
 
 
 
